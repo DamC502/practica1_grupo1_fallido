@@ -29,6 +29,10 @@ app.get('/', (req, res) => {
 })
 
 
+app.get('/PAROIMPAR/:NUMERO', (req, res) => {    
+    res.send({  state: true,  result: req.params.NUMERO % 2 == 0 ? 'Par' : 'Impar' })
+})
+
 app.listen(port, host, () => {
     console.log(`Server is running on http://${host}:${port}`)
 })
