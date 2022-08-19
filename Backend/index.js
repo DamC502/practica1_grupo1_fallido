@@ -16,6 +16,10 @@ const datos= [
         {
             nombre:"Jose Diego Perez Toralla",
             carnet:"201504081"
+        },
+        {
+            nombre:"Renan Estuardo Luna Gonzalez",
+            carnet:"201114567"
         }
     ]
 
